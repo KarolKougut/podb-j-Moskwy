@@ -1,17 +1,16 @@
 	#include<iostream>
 	using namespace std;
 	
-	int main(){
+int main() {
 
-		short a,b;
-		cout << "podaj a:  ";
-		cin >> a;
-		cout << "podaj a:  ";
-		cin >> b;
-		
-		if(a > b){
-			cout << "a > b" ;
-			}
-		else{
-			cout  << "a < b";}
-	}
+    for(int i = 1; i <= 10; i++){
+        for(int j = 0; j < 10; j++){
+        	cout << " " << j << " * " << i*j << endl;
+    }
+        cout << endl;
+    }
+
+
+cout << endl;
+system("pause");
+}
